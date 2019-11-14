@@ -1,0 +1,18 @@
+.bg {
+    background: #0f0e0e;
+    height: 100vh;
+}
+
+.postion-box {
+    height: 15rem;
+    bottom: 15rem;
+}
+
+.box {
+    width: 225px;
+    height: 2rem;
+    border: 1px;
+    border-color: #f4f4f4;
+    border-style: solid;
+    text-align: center;
+}
