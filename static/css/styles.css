@@ -8,6 +8,10 @@
     bottom: 15rem;
 }
 
+.header {
+    color: #f4f4f4;
+}
+
 .box {
     width: 225px;
     height: 2rem;
@@ -15,4 +19,12 @@
     border-color: #f4f4f4;
     border-style: solid;
     text-align: center;
+}
+
+.code-box {
+    padding: 2rem 0;
+}
+
+input {
+    width: 75%;
 }

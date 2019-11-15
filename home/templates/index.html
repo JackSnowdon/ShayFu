@@ -1,21 +1,67 @@
 {% extends 'base.html' %} {% load static %} {% block page_title %} Shay Fu {% endblock %} {% block content %}
-<div class="postion-box">
-    <div class="row">
-        <div class="col-3">
-            <div class="box"></div>
+
+<div class="row">
+    <div class="col-12 text-center">
+        <h3 class="code-box header">Enter Your Codes Below:</h3>
+    </div>
+</div>
+
+<div class="code-box">
+    <div class="row text-center">
+
+        <div class="col-12 col-md-6">
+            <form action="" id="code-1-form">
+                <div class="form-group">
+                    <input name="code-1" id="#code-value-1" type="text" placeholder="Enter Code 1 Here..."><br>
+                </div>
+                <button type="submit" class="btn btn-warning">Sumbit</button>
+            </form>
+            <br>
         </div>
-        <div class="col-3">
-            <div class="box"></div>
+
+        <div class="col-12 col-md-6">
+            <form action="#">
+                <div class="form-group">
+                    <input name="code-2" type="text" placeholder="Enter Code 2 Here..."><br>
+                    
+                </div>
+                <button type="submit" class="btn btn-warning">Sumbit</button>
+            </form>
+            <br>
         </div>
-        <div class="col-3">
-            <div class="box"></div>
+
+
+
+        <div class="col-12 col-md-6">
+            <form action="#">
+                <div class="form-group">
+                    <input name="code-3" type="text" placeholder="Enter Code 3 Here..."><br>
+                </div>
+                <button type="submit" class="btn btn-warning">Sumbit</button>
+            </form>
+            <br>
         </div>
-        <div class="col-3">
-            <div class="box"></div>
+
+
+
+        <div class="col-12 col-md-6">
+            <form action="#">
+                <div class="form-group">
+                    <input name="code-4" type="text" placeholder="Enter Code 4 Here..."><br>
+                </div>
+                <button type="submit" class="btn btn-warning">Sumbit</button>
+            </form>
+            <br>
         </div>
-        <hr>
+
+
+
     </div>
 </div>
 
 
+
+
+{% endblock %} {% block script_js %}
+<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
 {% endblock %}
